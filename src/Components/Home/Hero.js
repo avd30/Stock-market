@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import stock from "../../pics/stock.jpg";
-import {Gray} from '../../pics/gray-background.jpg'
+import stock from '../../pics/stock.jpg'
+
 
 
 
@@ -9,7 +9,7 @@ import {Gray} from '../../pics/gray-background.jpg'
 
 export const Hero = () => {
   return (
-    <div className=" h-100vh bg-image:{Gray}">
+    <div className=" h-100vh ">
     <div className='container mx-auto h-full relative'>
       {/*Text and img*/}
       <div className='flex flex-col justify-center'>
