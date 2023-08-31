@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import { IoMdClose } from 'react-icons/io';
 import { CgMenuRight } from 'react-icons/cg';
-import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 
 const menuVariants={
@@ -35,11 +34,11 @@ export const MobileNav = () => {
                 <IoMdClose />
             </div>
             <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'>
-                <li><a href={''}>Home</a></li>
-                <li><a href={''}>About</a></li>
+                <li><a href={'/'}>Home</a></li>
+                <li><a href={'/'}>About</a></li>
 
-                <li><a href={''}>Courses</a></li>
-                <li><a href={''}>Contact</a></li>
+                <li><a href={'/'}>Courses</a></li>
+                <li><a href={'/'}>Contact</a></li>
 
             </ul>
 
