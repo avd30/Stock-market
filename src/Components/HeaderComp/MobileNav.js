@@ -17,7 +17,7 @@ const menuVariants={
 
 
 
-export const MobileNav = () => {
+export const MobileNav = ({scrollToSection , heroRef, aboutRef, coursesRef}) => {
 
     const[openMenu,setOpenMenu]=useState(false);
 
@@ -34,11 +34,11 @@ export const MobileNav = () => {
                 <IoMdClose />
             </div>
             <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'>
-                <li><a href={'/'}>Home</a></li>
-                <li><a href={'/'}>About</a></li>
+                <li><button onClick={()=>{scrollToSection(heroRef); setOpenMenu(false)}}>Home</button></li>
+                <li><button onClick={()=>{scrollToSection(aboutRef); setOpenMenu(false)}}>About</button></li>
 
-                <li><a href={'/'}>Courses</a></li>
-                <li><a href={'/'}>Contact</a></li>
+                <li><button onClick={()=>{scrollToSection(coursesRef); setOpenMenu(false)}}>Courses</button></li>
+                <li><button onClick={()=>{scrollToSection(coursesRef); setOpenMenu(false)}}>Contact</button></li>
 
             </ul>
 
