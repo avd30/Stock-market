@@ -1,7 +1,6 @@
-import { Navbar } from "./Components/HeaderComp/Navbar";
+
 import { BrowserRouter as Router } from "react-router-dom";
 import { AllRoutes } from "./Route/AllRoutes";
-import { useRef, useState } from "react";
 
 
 
