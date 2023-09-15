@@ -1,7 +1,7 @@
 import { Navbar } from "./HeaderComp/Navbar";
 
 
-export const Course = () => {
+export const Course999 = () => {
 
     const videoUrl = 'https://www.youtube.com/watch?v=Wf1muyoy3Wo'; // Replace VIDEO_ID with your actual video's ID
   

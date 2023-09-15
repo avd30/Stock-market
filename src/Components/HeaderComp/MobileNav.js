@@ -17,7 +17,7 @@ const menuVariants={
 
 
 
-export const MobileNav = ({scrollToSection , heroRef, aboutRef, coursesRef}) => {
+export const MobileNav = ({scrollToSection , heroRef, aboutRef, coursesRef , contactRef}) => {
 
     const[openMenu,setOpenMenu]=useState(false);
 
@@ -38,7 +38,7 @@ export const MobileNav = ({scrollToSection , heroRef, aboutRef, coursesRef}) => 
                 <li><button onClick={()=>{scrollToSection(aboutRef); setOpenMenu(false)}}>About</button></li>
 
                 <li><button onClick={()=>{scrollToSection(coursesRef); setOpenMenu(false)}}>Courses</button></li>
-                <li><button onClick={()=>{scrollToSection(coursesRef); setOpenMenu(false)}}>Contact</button></li>
+                <li><button onClick={()=>{scrollToSection(contactRef); setOpenMenu(false)}}>Contact</button></li>
 
             </ul>
 

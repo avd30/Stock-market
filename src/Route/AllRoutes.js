@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../Components/Home/Home";
-import {Course } from "../Components/Course";
+import {Course999 } from "../Components/Course999";
+import { CourseFree } from "../Components/CourseFree";
 
 
 
@@ -9,7 +10,8 @@ export const AllRoutes = () => {
     <>
     <Routes>
         <Route path="/" element={<Home  />} />
-        <Route path="/course" element={<Course />} />
+        <Route path="/course-999" element={<Course999 />} />
+        <Route path="/course-free" element={<CourseFree/>}/>
 
 
     </Routes>
