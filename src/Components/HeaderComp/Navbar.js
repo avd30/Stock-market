@@ -1,7 +1,6 @@
 import React from 'react';
 import {Socials} from './Socials'
 import Logo from '../../pics/logo.png'
-import {MobileNav} from './MobileNav'
 
 
 
